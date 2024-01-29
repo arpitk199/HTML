@@ -1,0 +1,21 @@
+.container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+    margin: auto;
+    padding: 10px;
+}
+
+.container img{
+    width: 10%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all ease-out 1s;
+    cursor: pointer;
+}
+
+.container img:hover{
+    width: 100%;
+}
